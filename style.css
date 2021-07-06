@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+canvas {
+	background: rgb(139, 139, 221);
+}
+
+h1 {
+	font-family: "Amatic SC", cursive;
+	position: absolute;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	color: #fefefe;
+	transition: letter-spacing 1s ease-in-out;
+}
+
+h1:hover {
+	letter-spacing: 15px;
+}
+
+.first {
+	top: 50%;
+	left: 50%;
+	/*transform: translate(-50%, -50%);*/
+	color: #fefefe;
+	font-size: 20vh;
+	font-weight: 700;
+}
+
+.second {
+	top: 20%;
+	left: 20%;
+	font-weight: 400;
+	font-size: 15vh;
+}
